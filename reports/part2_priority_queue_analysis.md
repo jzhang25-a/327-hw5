@@ -55,6 +55,10 @@ For any node at index `i`:
 | OrderMaxHeap | 11.2496 | 63.3526 | 74.6022 |
 | std::priority_queue | 10.4075 | 21.4885 | 31.8959 |
 
+The custom `OrderMaxHeap` was slower than `std::priority_queue` in the benchmark. This is expected because `std::priority_queue` is already an optimized binary heap implementation provided by the C++ standard library. Both data structures have the same asymptotic complexity, O(log n) insertion and O(log n) extraction, so performance differences are mostly due to constant factors, compiler optimizations, memory access patterns, and implementation details.
+
+The custom implementation is still useful because it provides direct control over price-time priority logic and can be extended with exchange-specific features such as order ID indexing, custom memory pools, fixed-capacity arrays, or cancellation support.
+
 ## Trade-Off Analysis
 
 A binary heap is a natural data structure for repeatedly retrieving the highest-priority order. It provides efficient insertion and extraction with logarithmic complexity.

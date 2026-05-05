@@ -1,0 +1,4 @@
+/Users/zhangfeng/Github repos/327-hw5/build/CMakeFiles/benchmark_hash_table.dir
+/Users/zhangfeng/Github repos/327-hw5/build/CMakeFiles/benchmark_priority_queue.dir
+/Users/zhangfeng/Github repos/327-hw5/build/CMakeFiles/edit_cache.dir
+/Users/zhangfeng/Github repos/327-hw5/build/CMakeFiles/rebuild_cache.dir
